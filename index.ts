@@ -3,7 +3,6 @@ import { InteractionType } from "../enums/InteractionType";
 import { OrientationType } from "../enums/OrientationType";
 import { Ref, ref } from "vue";
 
-// @injectable("device-detect") - this is my option, but it might be not yours)
 export class AppDeviceDetect {
   private p_interactionType: Ref<InteractionType.State>;
   private p_orientationType: Ref<OrientationType.State>;
