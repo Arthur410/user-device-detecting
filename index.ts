@@ -1,4 +1,3 @@
-import { injectable } from "mcdis-app";
 import { DeviceType } from "../enums/DeviceType";
 import { InteractionType } from "../enums/InteractionType";
 import { OrientationType } from "../enums/OrientationType";
